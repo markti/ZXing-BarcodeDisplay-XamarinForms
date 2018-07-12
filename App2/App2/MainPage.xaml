@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:App2"
+    x:Class="App2.MainPage"
+    xmlns:zx="clr-namespace:ZXing;assembly=zxing.portable"
+    xmlns:zz="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+    >
+
+    <Grid>
+        <zz:ZXingBarcodeImageView 
+            x:Name="barcodeImage"
+            BarcodeFormat="QR_CODE" 
+            HeightRequest="300" WidthRequest="300" Margin="10" 
+            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+            BarcodeValue="ABC"
+            />
+    </Grid>
+
+</ContentPage>

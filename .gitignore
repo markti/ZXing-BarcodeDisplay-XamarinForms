@@ -2,4 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/App2/App2/bin/Debug/netstandard2.0
+/App2/App2/bin
+/App2/App2/obj
+/.vs/App2/v15
+/App2/App2.Android/bin
+/App2/App2.Android/obj
+/App2/App2.iOS/bin
+/App2/App2.iOS/obj
+/App2/App2.UWP/bin
+/App2/App2.UWP/obj
